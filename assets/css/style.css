@@ -1,0 +1,169 @@
+#contenu-footer {
+    position: relative;
+    z-index: 2;
+    padding: 60px 0 78px;
+    background-color: #39352F;
+}
+
+footer {
+    width:100%;
+    padding: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+#footer-suivez-nous {
+    float:left;
+    /* display: inline-block; */
+    width: 450px;
+    padding-left: 150px;
+}
+
+#footer-separateur {
+    width: 100%;
+    border-bottom: #FFF 1px solid;
+    margin: 30px 0px;
+}
+
+#footer-social-icons {
+    padding-inline-start: 0px;
+}
+
+.footer-li {
+    display: inline-block;
+    list-style: none;
+}
+
+.footer-social-a {
+width: 40px;
+height: 40px;
+line-height: 42px;
+text-align: center;
+color: #fff;
+font-size: 16px;
+padding: 0px;
+display: inline-block;
+background: #1f1f1f;
+}
+
+#footer-copyrights {
+    clear: both;
+    background: #333333;
+    width: 100%;
+    padding: 18px 0px;
+}
+
+#footer-cartes {
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 150px;
+}
+
+#footer-copyrights li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px;
+    padding-left: 15px;
+    height: 24px;
+}
+
+#footer-copyrights li a{
+    margin: 0px;
+    padding: 0px;
+}
+.footer-h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFF;
+    margin: 0px 0px 19px 0px;
+}
+
+.footer-h5-left {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFF;
+    margin: 0px 0px 19px 0px;
+}
+
+.footer-span {
+    color: #dcdbe2;
+    font-size: 15px;
+}
+
+#footer-copyright-text {
+    text-transform: capitalize;
+    margin-left: 150px;
+
+}
+
+#footer-liens-importants {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#footer-top-destinations {
+    float:right;
+    padding-left: 60px;
+    padding-right: 150px;
+    width: 360px;
+    margin-right: -20px;
+}
+
+#footer-liens-importants-ul {
+    padding-inline-start: 0px;
+}
+
+.footer-li-liens{
+    list-style: none;
+}
+
+.footer-li-liens a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-li-liens a::before {
+    content: ">";
+    color: #fff;
+    font-family: fontawesome;
+}
+
+#footer-souscrire {
+    display: block;
+}
+
+.footer-li-destination {
+    list-style: none;
+    display: inline-block;
+    height: 95px;
+    width: 101px;
+    padding-right: 14px;
+    margin-bottom: 15px;
+}
+
+#footer-top-destinations-ul {
+    padding-inline-start: 0px;
+}
+
+#footer-subscribe-input {
+    padding: 0px;
+    margin: 0px;
+    border:none;
+    padding-left: 15px;
+    background-color: #39352F;
+    width: 333px;
+    height: 48px;
+    border: 1px solid white;
+}
+
+#footer-subscribe-button {
+    float:right;
+    border:none;
+    width: 100px;
+    height: 50px;
+    background-color: #F5600C;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: bolder;
+}
