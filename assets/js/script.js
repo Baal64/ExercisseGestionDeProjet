@@ -2,11 +2,11 @@
  * @function
  * autocall
  */
-/* 
+
 (function () {
     navBarControler();
     carouselAnimated();
-})(); */
+})();
 
 /**
  * @function
@@ -36,7 +36,7 @@ function navBarControler() {
      */
     document.addEventListener("scroll", function (event) {
 
-        if (window.innerWidth > 500) {
+        if (window.innerWidth > 780) {
             if (window.scrollY > 50 && fixedNav == false) {
                 fixedNav = true; // set the bool for optimisation
                 nav.classList.remove("header_nav_init"); // remove the 'nav_init' class
@@ -50,22 +50,7 @@ function navBarControler() {
 
                 //console.log("window.scrollY < 50 && fixedNav");
             }
-        } else {
-            if (window.scrollY > 114 && fixedNav == false) {
-                fixedNav = true; // set the bool for optimisation
-                nav.classList.remove("header_nav_init"); // remove the 'nav_init' class
-                nav.classList.add("header_nav_fixed"); // add the 'nav_fixed' class
-
-                //console.log("window.scrollY > 350");
-            } else if (window.scrollY < 114 && fixedNav == true) {
-                fixedNav = false; // set the bool for optimisation
-                nav.classList.remove("header_nav_fixed"); // remove the 'nav_fixed' class
-                nav.classList.add("header_nav_init"); // add the 'nav_init' class
-
-                //console.log("window.scrollY < 50 && fixedNav");
-            }
         }
-
     });
 }
 
