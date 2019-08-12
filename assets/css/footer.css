@@ -19,7 +19,7 @@ footer {
 }
 
 #footer_overlay {
-    background-color: rgba(57,53,47, 0.97);
+    background-color: rgba(57,53,47, 0.95);
 
 }
 
@@ -68,6 +68,11 @@ font-size: 16px;
 padding: 0px;
 display: inline-block;
 background: #1f1f1f;
+transition-duration: 0.5s;
+}
+
+.footer_li_a:hover {
+    background: #337ab7;
 }
 
 #footer_copyrights {
@@ -141,17 +146,33 @@ background: #1f1f1f;
 
 .footer_li_liens{
     list-style: none;
+    margin-bottom: 12px;
 }
 
 .footer_li_liens a {
+    display: block;
     text-decoration: none;
     color: #fff;
+    transition-duration: 0.4s;
+}
+
+.footer_li_liens a:hover {
+    color: #F5600C;
 }
 
 .footer_li_liens a::before {
     content: ">";
+    margin-right: 15px;
     color: #fff;
+    transition-duration: 0.4s;
 }
+
+.footer_li_liens a:hover:before{
+    margin-right: 10px;
+    margin-left: 5px;
+    color: #F5600C;
+}
+
 
 #footer_souscrire {
     display: block;
@@ -159,11 +180,31 @@ background: #1f1f1f;
     font-size: 15px;
 }
 
-.footer_li_destination {
+.footer_li_destination{
     list-style: none;
     display: inline-block;
     height: 95px;
     width: 101px;
+}
+
+.footer_li_destination a{
+    height: 95px;
+    width: 101px;
+}
+
+.footer_li_destination a ion-icon {
+    position:relative;
+    top: -99px;
+    width:101px;
+    height: 96px;
+    background-color: #F5600C;
+    color: #fff;
+    opacity: 0;
+    transition-duration: 0.4s;
+}
+
+.footer_li_destination a ion-icon:hover {
+    opacity: 0.8;
 }
 
 #footer_top_destinations_ul {
@@ -174,7 +215,6 @@ background: #1f1f1f;
     margin: 0px;
     flex-flow: wrap;
     justify-content: space-between;
-    align-items: space-between;
 }
 
 #footer_subscribe_div{
@@ -190,6 +230,9 @@ background: #1f1f1f;
     background-color: rgba(57,53,47, 0.1);
     width: 333px;
     height: 50px;
+    font-size: 14px;
+    text-transform: capitalize;
+
 }
 
 #footer_subscribe_button {
@@ -201,9 +244,15 @@ background: #1f1f1f;
     text-transform: uppercase;
     color: #FFF;
     font-weight: bolder;
+    transition-duration: 0.4s;
 }
 
-/* Media queries */
+#footer_subscribe_button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgba(245, 95, 12, 0.7);
+}
+
+/* ========================= Media queries ============================= */
 
 
 @media only screen and (max-width: 1450px) {
@@ -225,7 +274,7 @@ background: #1f1f1f;
 @media only screen and (max-width: 1170px) {
 
     #footer_div1{
-        height: 698px;
+        height: 717px;
     }
     
     #footer_copyrights, #footer_wrap {
@@ -245,7 +294,7 @@ background: #1f1f1f;
 @media only screen and (max-width: 975px) {
    
     #footer_div1{
-        height: 930px;
+        height: 1014px;
     }
 
     #footer_wrap {
