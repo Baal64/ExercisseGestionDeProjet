@@ -1,14 +1,14 @@
-body {
+/* body {
     margin: 0px;
     padding: 0px;
-}
+} */
 
 footer {
     width:100%;
     min-width: 550px;
     padding: 0px;
-    position: absolute;
-    bottom: 0px;
+    /* position: absolute;
+    bottom: 0px; */
 }
 
 #footer_div1 {
@@ -26,7 +26,7 @@ footer {
 #footer_wrap {
     display: flex;
     justify-content: space-between;
-    padding: 64px 200px 60px 200px;;
+    padding: 64px 200px 60px 200px;
     /* padding-top: 64px;
     padding-bottom: 60px; */
 }
