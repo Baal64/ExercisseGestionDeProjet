@@ -1,0 +1,60 @@
+#section_reservation {
+    width: 1200px;
+    margin: auto;
+}
+.section_module{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    border-top: rgb(153, 153, 153) solid 1px;
+}
+#section_reservation p{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#section_reservation_villes_villes {
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+}
+
+#section_reservation_villes_AR_nbPassagers {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section_reservation_dates {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+ #section_reservation_modifier_bouton {
+     width: 176px;
+     height: 42px;
+     border: none;
+     color: #FFF;
+     font-size: 20px;
+     /* font-weight: bold; */
+     background-color: #F5600C;
+     transition-duration: 0.4s;
+ }
+
+ #section_reservation_modifier_bouton:hover {
+    background-color: #FFF;
+    border: 1px solid #F5600C;
+    color: rgba(245, 95, 12, 0.7);
+ }
+
+.section_sous_module {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.section_sous_sous_module {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
