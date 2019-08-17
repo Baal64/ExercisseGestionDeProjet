@@ -58,3 +58,33 @@
     justify-content: space-between;
     width: 160px;
 }
+
+.section_reservation_bouton {
+    width: 176px;
+    height: 42px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    background-color: #F5600C;
+    transition-duration: 0.4s;
+}
+
+.section_reservation_bouton:hover {
+   background-color: #FFF;
+   border: 1px solid #F5600C;
+   color: rgba(245, 95, 12, 0.7);
+}
+
+.section_sous_module2 label {
+    display: inline-block;
+    font-weight: bold;
+    width: 60px;
+}
+
+.section_sous_module2 p {
+    margin-bottom: 20px;
+}
+
+.section_reservation_infos_passager_prenom {
+    margin-top: 20px;
+}

@@ -96,9 +96,7 @@
                     <p>|</p>
                     <p id="section_reservation_date_retour">29 août 2019</p>
                 </div>
-                <div id = "section_reservation_modifier">
-                    <button id = "section_reservation_modifier_bouton">modifier</button>
-                </div>
+                <button id = "section_reservation_modifier_bouton">modifier</button>
 
             </div>
             <div id = "section_reservation_infos_vol_aller" class= "section_module">
@@ -146,8 +144,38 @@
             </div>
 
             <div id="section_reservation_infos_passager" class= "section_module">
-            </div>    
+                <div class= "section_sous_module2">
+                    <p>Informations passager 1</p>
+                    <div>
+                        <label for="nom" class = "section_reservation_infos_passager">Nom</label>
+                        <input type="text" name="nom" id="section_reservation_infos_passager_nom" class = "section_reservation_infos_passager">
+                    </div>
+                   <div class = "section_reservation_infos_passager_prenom">
+                        <label for="prenom" class = "section_reservation_infos_passager">Prénom</label>
+                        <input type="text" name="prenom" id="section_reservation_infos_passager_prenom" class = "section_reservation_infos_passager">
+                   </div>
+ 
+                </div>
+                <button class = "section_reservation_bouton">supprimer</button>
+            </div>
+
+            <div id="section_reservation_infos_passager_2" class= "section_module">
+                <div class= "section_sous_module2">
+                    <p>Informations passager 2</p>
+                    <div>
+                        <label for="nom2" class = "section_reservation_infos_passager">Nom</label>
+                        <input type="text" name="nom2" id="section_reservation_infos_passager_nom_2" class = "section_reservation_infos_passager">
+                    </div>
+                    <div class = "section_reservation_infos_passager_prenom">
+                        <label for="prenom2" class = "section_reservation_infos_passager">Prénom</label>
+                        <input type="text" name="prenom2" id="section_reservation_infos_passager_prenom" class = "section_reservation_infos_passager">
+                    </div>
+                </div>
+                <button class = "section_reservation_bouton">supprimer</button>
+            </div>   
             <div id="section_reservation_ajout_pasager_payer" class= "section_module">
+                    <button id = "section_reservation_ajouter_bouton" class ="section_reservation_bouton">Ajouter passager</button>
+                    <button id = "section_reservation_payer_bouton" class ="section_reservation_bouton">Payer</button>
             </div>
         </section>
 
