@@ -78,7 +78,7 @@
 .section_sous_module2 label {
     display: inline-block;
     font-weight: bold;
-    width: 60px;
+    width: 80px;
 }
 
 .section_sous_module2 p {
@@ -88,3 +88,17 @@
 .section_reservation_infos_passager_prenom {
     margin-top: 20px;
 }
+
+/* ========================= Media queries ============================= */
+
+@media only screen and (max-width: 1250px) {
+    
+    #section_reservation{
+        width:100%;
+        padding: 0px 20px;
+    }
+}
+
+/* @media only screen and (max-width: 1000px) {
+   
+} */
