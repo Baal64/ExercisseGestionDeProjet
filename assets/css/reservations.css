@@ -13,10 +13,12 @@
     text-transform: uppercase;
 }
 
+
+
 #section_reservation_villes_villes {
     display: flex;
     justify-content: space-between;
-    width: 380px;
+    width: 320px;
 }
 
 #section_reservation_villes_AR_nbPassagers {
@@ -28,7 +30,7 @@
 #section_reservation_dates {
     display: flex;
     justify-content: space-between;
-    width: 280px;
+    width: 240px;
 }
  #section_reservation_modifier_bouton {
      width: 176px;
@@ -99,6 +101,32 @@
     }
 }
 
-/* @media only screen and (max-width: 1000px) {
-   
-} */
+@media only screen and (max-width: 975px) {
+
+    .sous_module_infos_vol {
+        margin: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 775px) {
+
+    #section_reservation {
+        min-width: 550px;
+    }
+    
+    #section_reservation_infos_vol_general {
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+
+    #section_reservation_modifier_bouton {
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #section_reservation_infos_vol_aller, #section_reservation_infos_vol_retour {
+        flex-wrap: wrap;
+        height: 150px;
+
+    }
+}
