@@ -5,7 +5,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #17a2b8;
+    background-color: rgba(18, 118, 188, 1);
     height: 100vh;
 }
 .section_login{
@@ -16,6 +16,34 @@ body{
     min-width: 200px;
     margin: 60px auto;
     padding: 20px;
+    
+}
+
+.mon_compte{
+    text-align: left;
+}
+
+.section_mention_légales{
+    background-color: white;
+    text-align: justify;
+    width: 840px;
+    height: 1240px;
+    min-width: 200px;
+    margin: 60px auto;
+    padding: 20px;
+    
+}
+
+.section_mon_compte{
+    background-color: white;
+    text-align: center;
+    width: 360px;
+    height: 400px;
+    min-width: 200px;
+    margin: 60px auto;
+    padding: 20px;
+    
+    
     
 }
 
@@ -98,6 +126,14 @@ button{
 }
 
 .a_mdp{
+    color: #f5600C;    
+    font-size: 12px;
+    text-align: right;
+    margin: 10px;
+    
+    
+}
+.a_modif{
     color: #f5600C;    
     font-size: 12px;
     text-align: left;
