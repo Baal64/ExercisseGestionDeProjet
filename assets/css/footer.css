@@ -130,6 +130,13 @@ transition-duration: 0.5s;
     font-size: 15px;
 }
 
+.footer_span>a {
+    margin-left: 20px;
+
+    color: #dcdbe2;
+    font-size: 15px;
+}
+
 #footer_copyright_span {
     text-transform: capitalize;
 }
